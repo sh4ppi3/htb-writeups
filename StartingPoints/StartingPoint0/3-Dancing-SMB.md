@@ -1,10 +1,7 @@
 
-# Recon
-`ping $target
+## Recon
 
-
-`nmap -sV $target
-
+**nmap -sV $target
 ```PORT     STATE SERVICE       VERSION
 135/tcp  open  msrpc         Microsoft Windows RPC
 139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
@@ -13,7 +10,7 @@
 Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows``
 ```
 
-# FootHold
+## FootHold
 
 
 Listar portas SMB com usuário anonimo

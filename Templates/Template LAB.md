@@ -1,10 +1,14 @@
-# **Reconnaissance**
+## Recon
 
-# Enumeration
-# Foothold
+**nmap -sV -p- $target
 
-# PrivEsc
 
-# Flags
+## Enumeration
 
-# Learned lessons
+## Foothold
+
+## PrivEsc
+
+## Flags
+
+## Learned lessons
