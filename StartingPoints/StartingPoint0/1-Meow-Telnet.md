@@ -1,31 +1,22 @@
-# **Theory Question**
+# Recon
+```
+Command: nmap -sV -p- --min-rate 5000 $target
 
-1.  In cybersecurity, isolated environments—like Pwnbox or the vulnerable target machines—are often VMs. What does VM stand for?
-**R: Virtual Machine**
+Starting Nmap 7.98 ( https://nmap.org ) at 2026-08-01 09:16 -0300
+Nmap scan report for 10.129.42.23
+Host is up (0.16s latency).
+Not shown: 65534 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+23/tcp open  telnet  Linux telnetd
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+```
 
-2. What tool do we use to interact with the operating system in order to issue commands via the command line, such as the one to start our VPN connection? It's also known as a console or shell.
-**R: Terminal**
+# Foothold
+ **Testing for exposed telnet service
+`Command: telnet $target
 
-3. What service do we use to form our VPN connection into HTB labs?
-**R: OpenVPN**
+![[Pasted image 20260801092552.png]]
 
-4. What tool do we use to test our connection to the target with an ICMP echo request?
-**R: Ping**
+Testing with default credentials: `root` And we got the login.
 
-5. What is the name of the most common tool for finding open ports on a target?
-**R: Nmap**
-
-
-# **Reconnaissance**
-
-6. What service do we identify on port 23/tcp during our scans?
-**R: `nmap -sV $TARGET`**
-
-
-# **Exploit**
-
-7. What username is able to log into the target over telnet with a blank password?
-**R: `root` (Always test default credentials if you can)**
-
-8. Submit the flag located in root's home directory.
-**R: After telnet connection. I just had to `ls`  / directory.**
+![[Pasted image 20260801092645.png]]
