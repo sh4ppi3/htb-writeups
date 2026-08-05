@@ -15,10 +15,10 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
  **Testing for exposed telnet service
 `Command: telnet $target
 
-![[Pasted image 20260801092552.png]]
+![Pasted image 20260801092552.png](Pasted%20image%2020260801092552.png)
 
 Testing with default credentials: `root` And we got the login.
 
 # Flag
 
-![[Pasted image 20260801092645.png]]
+![Pasted image 20260801092645.png](Pasted%20image%2020260801092645.png)

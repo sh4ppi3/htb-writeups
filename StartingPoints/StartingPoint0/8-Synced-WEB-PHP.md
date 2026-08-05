@@ -1,6 +1,6 @@
 ## Recon
 
-![[Pasted image 20260805004504.png]]
+![Pasted image 20260805004504.png](Pasted%20image%2020260805004504.png)
 
 # FootHold
 
@@ -11,17 +11,16 @@ Or `$target:` to connect via **the** SSH port 22, but you would need authenticat
 
 `rsync --list-only $target::
 
-![[Pasted image 20260805004830.png]]
-
+![Pasted image 20260805004830.png](Pasted%20image%2020260805004830.png)
 Lets see whats in public
 
 `rsync --list-only $target::public
 
-![[Pasted image 20260805005224.png]]
+![Pasted image 20260805005224.png](Pasted%20image%2020260805005224.png)
 
 # Flag
 
 Now, lets get the flag from their repository
 
-![[Pasted image 20260805005515.png]]
+![Pasted image 20260805005515.png](Pasted%20image%2020260805005515.png)
 
