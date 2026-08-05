@@ -13,7 +13,7 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
 # Foothold
  Testing for exposed telnet service
-`Command: telnet $target
+`Command: telnet $target`
 
 ![Pasted image 20260801092552](../../Images/Pasted%20image%2020260801092552.png)
 

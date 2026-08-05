@@ -5,23 +5,23 @@
 
 Please note that the MongoDB server running on Mongod is only compatible with Mongo Shell version <= 2.3.2
 
-` curl -O https://downloads.mongodb.com/compass/mongosh-2.3.2-linux-x64.tgz
+`curl -O https://downloads.mongodb.com/compass/mongosh-2.3.2-linux-x64.tgz`
 
 ![Pasted image 20260805010803.png](../../Images/Pasted%20image%2020260805010803.png)
 
 To see all databases inside mongodb
 
-`show dbs;
+`show dbs;`
 ![Pasted image 20260805011114.png](../../Images/Pasted%20image%2020260805011114.png)
 
 Lets see whats inside sensitive_information, to do it, lets select it first.
-`use sensitive_information
+`use sensitive_information`
 
 ![Pasted image 20260805011329.png](../../Images/Pasted%20image%2020260805011329.png)
 
 An list it content
 
-`show collections;
+`show collections;`
 
 ![Pasted image 20260805011352.png](../../Images/Pasted%20image%2020260805011352.png)
 
@@ -30,6 +30,6 @@ Found the flag!
 
 To get it, we need to use the `db.collection.find()` command. Substitute `collection` with the target collection name:
 
-`db.flag.find();
+`db.flag.find();`
 
 ![Pasted image 20260805011412.png](../../Images/Pasted%20image%2020260805011412.png)
