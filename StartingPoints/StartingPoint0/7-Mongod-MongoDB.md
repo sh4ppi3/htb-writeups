@@ -24,6 +24,7 @@ An list it content
 `show collections;
 
 ![Pasted image 20260805011352.png](../../Images/Pasted%20image%2020260805011352.png)
+
 # Flag
 Found the flag!
 

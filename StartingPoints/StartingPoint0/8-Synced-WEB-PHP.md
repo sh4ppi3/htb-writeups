@@ -12,6 +12,7 @@ Or `$target:` to connect via **the** SSH port 22, but you would need authenticat
 `rsync --list-only $target::
 
 ![Pasted image 20260805004830.png](../../Images/Pasted%20image%2020260805004830.png)
+
 Lets see whats in public
 
 `rsync --list-only $target::public
