@@ -1,4 +1,4 @@
-## Recon
+# Recon
 
 **nmap -sV -p- $target
 ```
@@ -8,7 +8,7 @@ PORT     STATE SERVICE VERSION
 6379/tcp open  redis   Redis key-value store 5.0.7
 ```
 
-## Foothold
+# Foothold
 
 To interact with redis you can use redis-cli
 
