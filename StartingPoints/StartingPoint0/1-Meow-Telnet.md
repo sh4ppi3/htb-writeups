@@ -19,4 +19,6 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
 Testing with default credentials: `root` And we got the login.
 
+# Flag
+
 ![[Pasted image 20260801092645.png]]

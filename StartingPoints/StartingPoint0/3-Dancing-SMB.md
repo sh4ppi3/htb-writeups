@@ -1,5 +1,4 @@
-
-## Recon
+# Recon
 
 **nmap -sV $target
 ```PORT     STATE SERVICE       VERSION
@@ -10,21 +9,21 @@
 Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows``
 ```
 
-## FootHold
+# FootHold
 
 
-Listar portas SMB com usuário anonimo
+Listing SMB repositories with anon user
 smbclient -L //$target -p 445 -N
 
--L: Listar
--N: Anonimo
--U: Usuario
+-L: Listing
+-N: Anonymous user
 
 
-Conectar a repositório aberto
-smbclient //$target/$repositorio -p 445 -N
+conect to target repository with anonymous login
+smbclient //target/$repositorio -p 445 -N
+
+
+# Flag
 
 get flag.txt
-
-
 5f61c10dffbc77a704d76016a22f1664
