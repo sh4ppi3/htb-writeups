@@ -2,7 +2,7 @@
 
 ![Pasted image 20260805004504.png](../../Images/Pasted%20image%2020260805004504.png)
 
-# FootHold
+# Foothold
 
 Rsync is **a** service that can **synchronize a directory** of yours with **a** remote **directory**. For us, **it** is **interesting** because we can see what files they have on their side.
 

@@ -10,8 +10,8 @@ Please note that the MongoDB server running on Mongod is only compatible with Mo
 ![Pasted image 20260805010803.png](../../Images/Pasted%20image%2020260805010803.png)
 
 To see all databases inside mongodb
-
 `show dbs;`
+
 ![Pasted image 20260805011114.png](../../Images/Pasted%20image%2020260805011114.png)
 
 Lets see whats inside sensitive_information, to do it, lets select it first.
@@ -20,7 +20,6 @@ Lets see whats inside sensitive_information, to do it, lets select it first.
 ![Pasted image 20260805011329.png](../../Images/Pasted%20image%2020260805011329.png)
 
 An list it content
-
 `show collections;`
 
 ![Pasted image 20260805011352.png](../../Images/Pasted%20image%2020260805011352.png)

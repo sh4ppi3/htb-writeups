@@ -9,7 +9,7 @@
 Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows``
 ```
 
-# FootHold
+# Foothold
 
 
 Listing SMB repositories with anon user
